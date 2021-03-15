@@ -1,6 +1,7 @@
 {
     "acomponent": {
         "type": "bleh",
-        "def": "you know"
+        "def": "you know",
+        "latest_commit": true
     }
 }
