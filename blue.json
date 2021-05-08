@@ -1,4 +1,10 @@
 {
-    "Some_json": true,
-    "latest_commit": true
+    "components": {
+        "iam": {
+            "type": "ext",
+            "policy": {
+                "not_real": true
+            }
+        }
+    }
 }
