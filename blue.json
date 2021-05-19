@@ -3,7 +3,16 @@
         "iam": {
             "type": "ext",
             "policy": {
-                "not_real": true
+                "Version": "2012-10-17",
+                "Statement": [{
+                    "Sid": "Vis",
+                    "Effect": "Allow",
+                    "Action": [
+                        "iam:*",
+                        "lambda:*"
+                    ],
+                    "Resource": "*"
+                }]
             }
         }
     }
