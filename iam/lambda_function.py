@@ -65,6 +65,7 @@ def lambda_handler(event, context):
                     
 
     elif event.get("op") == "delete":
+        remove_policy(policy_arn)
 
 def remove_policy(policy_arn):
 
